@@ -10,10 +10,11 @@ class Program
         // Testando métodos
         nokia.Ligar();
         nokia.ReceberLigacao();
-        nokia.InstalarAplicativo("WhatsApp");
+        nokia.InstalarAplicativo("WhatsApp", "320GB");
 
         iphone.Ligar();
         iphone.ReceberLigacao();
-        iphone.InstalarAplicativo("Instagram");
+        iphone.InstalarAplicativo("Instagram", "128GB");
+
     }
 }
